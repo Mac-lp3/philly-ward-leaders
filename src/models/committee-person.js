@@ -3,8 +3,8 @@ var Backbone = require('backbone'),
 
 module.exports = Backbone.Model.extend({
      initialize: function() {
-          this.set('division', this.get('district'));
-          this.set('nameLowerCase', this.get('name').toLowerCase());
-          this.set('divisionOrdinal', util.getOrdinal(this.get('division')));
+          this.set('division', this.get('District'));
+          this.set('nameLowerCase', this.get('Name').toLowerCase());
+          this.set('divisionOrdinal', util.getOrdinal(this.get('Division')));
      }
 });
