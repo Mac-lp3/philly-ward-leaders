@@ -1,8 +1,6 @@
 var Backbone = require('backbone'),
-     Tabletop = require('tabletop').Tabletop,
      $ = require('jquery')
      CommitteePerson = require('../models/committee-person');
-require('backbone.tabletopSync');
 
 module.exports = Backbone.Collection.extend({
     model: CommitteePerson,
